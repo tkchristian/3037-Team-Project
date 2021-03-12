@@ -1,0 +1,27 @@
+Project Design
+
+The project we will be working on is a Time Clock. This project will allow employees to clock in at the beginning of the day clock out for breaks and at the end of the day. It will calculate a weekly/biweekly/monthly wage.
+
+Schedule for availability and schedule for empty hours. Combo of the two would produce the actual schedule
+
+*Everyone keeps personal log of their contributions*
+
+Ensure everyone’s individual worksheet is good (look out for each other) and have everyone turn theirs in together
+
+Manages everyone that works during the week
+
+24/7
+
+Components:
+
+Roster class
+
+-clock-in/clock-out, # of employees
+
+Employee class
+
+-name, pay_rate, hours_worked, break, availability, etc
+
+Methods to read and write from files
+
+Data: In terms of saving and storage, there can be one large file was continuously read and write to. This file will have everyone’s data.
