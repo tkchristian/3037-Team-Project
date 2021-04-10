@@ -17,9 +17,10 @@ namespace _3037_Team_Project
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+
+        private void exit_button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to clockwork!");
+            this.Close();
         }
     }
 }
