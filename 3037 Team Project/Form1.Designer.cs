@@ -33,6 +33,7 @@ namespace _3037_Team_Project
             this.clock_in_button = new System.Windows.Forms.Button();
             this.clock_out_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // exit_button
@@ -60,6 +61,7 @@ namespace _3037_Team_Project
             this.clock_in_button.TabIndex = 2;
             this.clock_in_button.Text = "Clock in";
             this.clock_in_button.UseVisualStyleBackColor = false;
+            this.clock_in_button.Click += new System.EventHandler(this.clock_in_button_Click);
             // 
             // clock_out_button
             // 
@@ -72,6 +74,7 @@ namespace _3037_Team_Project
             this.clock_out_button.TabIndex = 3;
             this.clock_out_button.Text = "Clock out";
             this.clock_out_button.UseVisualStyleBackColor = false;
+            this.clock_out_button.Click += new System.EventHandler(this.clock_out_button_Click);
             // 
             // label1
             // 
@@ -86,12 +89,21 @@ namespace _3037_Team_Project
             this.label1.TabIndex = 4;
             this.label1.Text = "Welcome to Clockwork, the all-in-one employee time management program!";
             // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(485, 164);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(363, 213);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(978, 594);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.clock_out_button);
             this.Controls.Add(this.clock_in_button);
@@ -109,6 +121,7 @@ namespace _3037_Team_Project
         private System.Windows.Forms.Button clock_in_button;
         private System.Windows.Forms.Button clock_out_button;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
